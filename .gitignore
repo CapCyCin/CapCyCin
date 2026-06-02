@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# ML checkpoints & weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.msgpack
+dpo/checkpoints/
+
+# Audio & large datasets
+*.wav
+*.mp3
+*.flac
+*.zip
+
+# HuggingFace / model caches
+.cache/
+**/.cache/
+
+# Experiment tracking (disabled by default; opt-in via USE_WANDB=1)
+wandb/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local debug
+tea_debug.log
+
+# Stanford CoreNLP (download separately for SPICE eval)
+evaluation/
+**/stanford-corenlp*/
+
+# Legacy / removed from release
+cycleconsistency/
+qwen2_dpo_lora.py
+omni-dpo.py
+omni-eval.py
+
+# Old root-level scripts superseded by dpo/ and dataset/
+qwen2_dpo.py
+qwen2-comp.py
+qwen2_inference.py
+dpo_eval.py
+
+# Large local experiment outputs
+dpo_eval/

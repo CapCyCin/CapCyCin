@@ -1,0 +1,21 @@
+# Core ML
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+librosa>=0.10.0
+numpy>=1.24.0
+tqdm>=4.66.0
+pandas>=2.0.0
+
+# Evaluation
+evaluate>=0.4.0
+sentence-transformers>=2.5.0
+fense>=0.1.0
+pycocoevalcap>=1.2
+
+# Optional experiment tracking (disabled by default)
+wandb>=0.16.0
+
+# SPICE requires Java and Stanford CoreNLP downloaded separately.
+# See README for setup instructions.
