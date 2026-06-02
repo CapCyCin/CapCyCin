@@ -2,6 +2,9 @@
 
 Anonymous release of code for Direct Preference Optimization (DPO) on music captioning with Qwen2-Audio, using cycle-consistency preference pairs.
 
+This repository is currently being updated.
+Code and documentation will be available soon.
+
 ## Repository Layout
 
 ```
