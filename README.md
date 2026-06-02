@@ -1,4 +1,4 @@
-# Music Captioning DPO
+# CapCyCin
 
 Anonymous release of code for Direct Preference Optimization (DPO) on music captioning with Qwen2-Audio, using cycle-consistency preference pairs.
 
