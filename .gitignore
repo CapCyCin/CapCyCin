@@ -22,6 +22,16 @@ dpo/checkpoints/
 *.flac
 *.zip
 
+# JSONL aggregates / train splits over GitHub 100MB limit (regenerate via dataset/scripts/)
+dataset/data/CPPair-m2t/CPpair-ld-mnm-*.jsonl
+dataset/data/CPPair-m2t/threshold/CPpair-ld-mnm-*.jsonl
+dataset/data/CPPair-m2t/threshold/train/CPpair-ld-mnm-*.jsonl
+dataset/data/CPPair-t2m/threshold/CPpair-msd-tnt-*.jsonl
+dataset/data/CPPair-t2m/threshold/train/CPpair-msd-tnt-*.jsonl
+dataset/data/baseline/m2t/threshold/CPpair-ld-mnt-clap.jsonl
+dataset/data/baseline/m2t/threshold/train/CPpair-ld-mnt-clap.jsonl
+dataset/data/baseline/t2m/threshold/CPpair-msd-tnm-clap.jsonl
+
 # HuggingFace / model caches
 .cache/
 **/.cache/
