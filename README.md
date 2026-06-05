@@ -262,15 +262,6 @@ Similarity scores + multi-model generations
 
 ---
 
-## Notes
-
-- All paths in code and JSONL are **relative** to the repository root.
-- Large artifacts (`.pt`, `.wav`, model caches, wandb logs) are excluded via `.gitignore`.
-- LoRA training code is intentionally omitted from this release.
-- WandB is disabled by default across RM and DPO scripts for anonymous release.
-
----
-
 ## Citation
 
 If you use this code, please cite the corresponding paper (details to be added upon publication).
